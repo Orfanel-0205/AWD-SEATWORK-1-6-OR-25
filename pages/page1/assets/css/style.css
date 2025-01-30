@@ -1,13 +1,46 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(135deg, #2A2A72, #009FFD);
     margin: 0;
     padding: 20px;
 }
 
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    animation: slideDown 0.5s ease;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-btn {
+    color: #dbd0d0;
+    text-decoration: none;
+    padding: 0.9rem 1.5rem;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+}
+.nav-btn:hover {
+    background: #fcfcfc;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
 .container {
-    max-width: 400px;
-    margin: auto;
+    margin-top: 15vh;
+   
+    justify-self: center;
     background: white;
     padding: 20px;
     border-radius: 10px;

@@ -19,4 +19,7 @@ document.getElementById('gradeForm').addEventListener('submit' , function(event)
         <p>GWA: ${gwa}</p>
     `;
 
+
 });
+
+

@@ -9,7 +9,7 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">ANO GWA MO?</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -22,7 +22,7 @@
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/badge/user/018ee58f-2a2b-4f99-864b-ecbfa9a11b6f/project/ed425e5e-2d0e-4cae-9574-26e915eb1c66.svg)](https://wakatime.com/badge/user/018ee58f-2a2b-4f99-864b-ecbfa9a11b6f/project/ed425e5e-2d0e-4cae-9574-26e915eb1c66)
 
 ---
 
