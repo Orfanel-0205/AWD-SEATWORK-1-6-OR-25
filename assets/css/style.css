@@ -16,7 +16,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    background: linear-gradient(135deg, #2A2A72, #009FFD);
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .nav-btn {
-    color: var(--light);
+    color: #dbd0d0;
     text-decoration: none;
     padding: 0.9rem 1.5rem;
     border-radius: 30px;
@@ -49,7 +49,7 @@ body {
     background: rgba(255, 255, 255, 0.1);
 }
 .nav-btn:hover {
-    background: var(--accent);
+    background: #fcfcfc;
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
@@ -81,7 +81,7 @@ body {
 }
     .hero {
         padding: 4rem 2 rem;
-        color: var(--light);
+        color: #dbd0d0;
         text-align: center;
 
     }
@@ -100,7 +100,7 @@ body {
 
     .subtitle {
         font-size: 1.2rem;
-        color: var(--accent);
+        color: #fcfcfc;
         margin-bottom: 1rem;
         animation-delay: 0.2s;
     }
@@ -108,7 +108,7 @@ body {
     .title {
         font-size: 3.5rem;
         margin-bottom: 1.5rem;
-        background: linear-gradient(to right, #fff, var(--secondary));
+        background: linear-gradient(to right, #fff, #009FFD);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         animation-delay: 0.4s;
