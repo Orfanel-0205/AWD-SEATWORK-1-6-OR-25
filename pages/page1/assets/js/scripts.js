@@ -13,20 +13,22 @@ document.getElementById('gradeForm').addEventListener('submit', function(event) 
     localStorage.setItem('grades', JSON.stringify(grades));
     localStorage.setItem('name', name);
     
-    const validGrades = [4.0, 3.5, 3.0, 2.5, 2.0, 1.5, 1.0, 0.5];
-    const filteredGrades = grades.filter(grade => validGrades.includes(grade));
-    
-    const gwa = filteredGrades.reduce((a, b) => a + b, 0) / filteredGrades.length;
+    const gwa = grades.reduce((a, b) => a + b) / grades.length;
     const resultElement = document.getElementById('result');
     
     resultElement.classList.remove('alert-error', 'hidden');
-    resultElement.classList.add('page-header', 'alert', gwa >= 1.0 ? 'alert-success' : 'alert-error');
+    resultElement.classList.add('page-header', 'alert', gwa >= 1.0 && gwa <= 4.0 ? 'alert-success' : 'alert-error');
     
     let qualification = 0;
-    const lowestGrade = Math.min(...filteredGrades);
+    const lowestGrade = Math.min(...grades);
     
     switch (true) {
-        case (gwa >= 1.0): qualification = (lowestGrade >= 1.5 ? 100 : (lowestGrade >= 2.0 ? 75 : (lowestGrade >= 2.5 ? 50 : 0))); break;
+        case (gwa <= 4.0 && gwa >= 3.5): qualification = 100; break;
+        case (gwa < 3.5 && gwa >= 3.0): qualification = 75; break;
+        case (gwa < 3.0 && gwa >= 2.5): qualification = 50; break;
+        case (gwa < 2.5 && gwa >= 2.0): qualification = 25; break;
+        case (gwa < 2.0 && gwa >= 1.5): qualification = 10; break;
+        case (gwa < 1.5 && gwa >= 1.0): qualification = 0; break;
         default: qualification = 0; break;
     }
     
@@ -41,18 +43,17 @@ document.getElementById('gradeForm').addEventListener('submit', function(event) 
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const storedGrades = JSON.parse(localStorage.getItem('grades')) || [];
-    const storedName = localStorage.getItem('name') || '';
+    const savedGrades = JSON.parse(localStorage.getItem('grades')) || [];
+    const savedName = localStorage.getItem('name') || '';
     
-    document.getElementById('name').value = storedName;
-    
-    storedGrades.forEach((grade, index) => {
+    document.getElementById('name').value = savedName;
+    savedGrades.forEach((grade, index) => {
         if (document.getElementById(`grade${index + 1}`)) {
             document.getElementById(`grade${index + 1}`).value = grade;
         }
     });
     
-    if (storedGrades.length) {
+    if (savedGrades.length > 0) {
         document.getElementById('gradeForm').dispatchEvent(new Event('submit'));
     }
 });

@@ -4,23 +4,23 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Orfanel-0205/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/Chill-Guy-the-meme-that-took-over-the-best-album-768x594.jpg" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">ANO GWA MO?</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  A GWA Calculator that evaluates grades and retains data after reload.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/AWD-SEATWORK-1-6-OR-25-1)
 
 [![wakatime](https://wakatime.com/badge/user/018ee58f-2a2b-4f99-864b-ecbfa9a11b6f/project/ed425e5e-2d0e-4cae-9574-26e915eb1c66.svg)](https://wakatime.com/badge/user/018ee58f-2a2b-4f99-864b-ecbfa9a11b6f/project/ed425e5e-2d0e-4cae-9574-26e915eb1c66)
 
@@ -39,12 +39,28 @@
         <li>
           <a href="#key-components">Key Components</a>
         </li>
-        <li>
+        <li>The project consists of a two-page website:
+
+Landing Page – Introduces the GWA Calculator, its features, and scholarship eligibility criteria.
+Demo Page – Contains the actual GWA calculator where users can input grades and receive results.
+Hero Section – A welcoming section with an engaging title and brief project description.
+How It Works – Explains the GWA calculation process and scholarship qualifications.
+Call-to-Action (CTA) – A button linking to the demo page.
+
+Grade Input Form – Users enter grades based on a predefined grading scale.
+GWA Computation – Calculates the weighted average and lowest grade.
+Scholarship Evaluation – Determines eligibility based on grade criteria.
+Data Persistence – Stores input and results using localStorage to retain information after reload.
+Result Display – Shows GWA, lowest grade, and qualification status dynamically.
+Smooth UX – Includes automatic submission on reload and animated scrolling for a seamless experience.
           <a href="#technology">Technology</a>
         </li>
       </ol>
     </li>
-    <li>
+    <li>HTML
+    JS
+    CSS
+
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
@@ -59,7 +75,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This project is a Grade Weighted Average (GWA) Calculator that allows users to input their grades, calculates their GWA, and determines scholarship eligibility based on predefined grade criteria. It ensures data persistence using localStorage, so user inputs and results remain even after a page reload. The project features a smooth user experience with real-time feedback and automatic form submission upon reload.
 
 Guiding Question:
 - What is the project
