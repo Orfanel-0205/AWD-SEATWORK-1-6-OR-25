@@ -78,16 +78,12 @@ Smooth UX – Includes automatic submission on reload and animated scrolling for
 This project is a Grade Weighted Average (GWA) Calculator that allows users to input their grades, calculates their GWA, and determines scholarship eligibility based on predefined grade criteria. It ensures data persistence using localStorage, so user inputs and results remain even after a page reload. The project features a smooth user experience with real-time feedback and automatic form submission upon reload.
 
 Guiding Question:
-- What is the project
-This is a Grade Weighted Average (GWA) Calculator that helps users compute their GWA based on inputted grades and credit units.
-- Whats the purpose
-The purpose is to provide an easy-to-use utility where users can input their grades and credit units, calculate their GWA, and store/retrieve previous inputs using localStorage.
-- What are key components
-HTML Structure: Includes an input form for grades, a navigation menu, and a results display section.
+- This is a Grade Weighted Average (GWA) Calculator that helps users compute their GWA based on inputted grades and credit units.
+- The purpose is to provide an easy-to-use utility where users can input their grades and credit units, calculate their GWA, and store/retrieve previous inputs using localStorage.
+- HTML Structure: Includes an input form for grades, a navigation menu, and a results display section.
 JavaScript Functionality: Handles form submission, GWA computation, local storage for saving user data, and UI updates.
 CSS Styling: Uses modern styles with a gradient background, animations, and responsive design for a sleek UI.
-- What technology used and how it is used
-HTML: Defines the structure of the page.
+- HTML: Defines the structure of the page.
 CSS: Provides styling with gradients, animations, and responsive design.
 JavaScript: Handles GWA calculation, stores data in localStorage, and updates UI dynamically.
 
@@ -99,7 +95,8 @@ JavaScript: Handles GWA calculation, stores data in localStorage, and updates UI
 - Navigations
 - Animations
 - Header
-- 
+- JavaScript Logic
+-Pre-fills form fields with previous values.
 
 ### Technology
 <!-- TODO: List of Technology Used -->
