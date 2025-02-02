@@ -79,16 +79,27 @@ This project is a Grade Weighted Average (GWA) Calculator that allows users to i
 
 Guiding Question:
 - What is the project
+This is a Grade Weighted Average (GWA) Calculator that helps users compute their GWA based on inputted grades and credit units.
 - Whats the purpose
+The purpose is to provide an easy-to-use utility where users can input their grades and credit units, calculate their GWA, and store/retrieve previous inputs using localStorage.
 - What are key components
+HTML Structure: Includes an input form for grades, a navigation menu, and a results display section.
+JavaScript Functionality: Handles form submission, GWA computation, local storage for saving user data, and UI updates.
+CSS Styling: Uses modern styles with a gradient background, animations, and responsive design for a sleek UI.
 - What technology used and how it is used
+HTML: Defines the structure of the page.
+CSS: Provides styling with gradients, animations, and responsive design.
+JavaScript: Handles GWA calculation, stores data in localStorage, and updates UI dynamically.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Hover transition
+- Navigations
+- Animations
+- Header
+- 
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -117,7 +128,7 @@ WD-ProjectName
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ GWA
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
@@ -135,4 +146,8 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| w3schools | To learn animation and transitions. | https://www.w3schools.com/css/default.asp |
+| fontawesome | To get fonts that serves as symbols | https://fontawesome.com |
+|Pinterest|For concepts | https://ph.pinterest.com|
+|pngwing|to get free png images|https://www.pngwing.com|
+|Youtube|for js structure references|https://www.youtube.com/watch?v=oEm_POQszcg&ab_channel=AkubueAlexander|
