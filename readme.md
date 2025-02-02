@@ -116,7 +116,7 @@ JavaScript: Handles GWA calculation, stores data in localStorage, and updates UI
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+AWD-SEATWORK-1-6-OR-25
 └─ assets
 |   └─ css
 |   |   └─ style.css
